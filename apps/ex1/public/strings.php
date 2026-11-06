@@ -12,6 +12,10 @@
     <h1 class="blue">Strings</h1>
     <a href="index.php">Home</a>
     <a href="dates.php">Dates</a>
+    <a href="constants.php">Constants</a>
+    <a href="functions.php">Functions</a>
+    <a href="ifstatements.php">If Statements</a>
+    <a href="oop.php">OOP</a>
     <?php
         $name = "Sebastian Villa";
         $campus = "Moncton";

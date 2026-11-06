@@ -12,12 +12,18 @@
     <h1 class="blue">Dates</h1>
     <a href="index.php">Home</a>
     <a href="strings.php">Strings</a>
+    <a href="constants.php">Constants</a>
+    <a href="functions.php">Functions</a>
+    <a href="ifstatements.php">If Statements</a>
+    <a href="oop.php">OOP</a>
     <?php
         $now = time(); // Get the current date time as EPOCH Seconds
+        $date = strtotime("2026-10-4 14:35:05");
     ?>
-
-    <h1>Epoch Seconds: <?= $now ?></h1>
-    <h2>Formmated Date: <?= date("Y-m-d H:i:s", $now) ?></h2>
+    <h1>Now Epoch Seconds: <?= $now ?></h1>
+    <h2>Now Formatted date: <?= date("Y-m-d H:i:s", $now) ?></h2>
+    <h1>Epoch Seconds of our constructed date: <?= $date ?></h1>
+    <h2>Formatted date: <?= date("Y-m-d H:i:s", $date) ?></h2>
 </body>
 
 </html>
